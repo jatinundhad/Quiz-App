@@ -1,0 +1,46 @@
+body{
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+#username{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#finalScore{
+    font-size: 5em;
+    background-color: rgb(79, 79, 188);
+    color: white;
+    width: 7em;
+}
+
+#score{
+    margin: 10px;
+    font-size: 5em;
+}
+
+#saveScoreBtn{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 2em; 
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 2em;
+}
+
+.container{
+    border: 5px outset rgb(79, 79, 188);
+    padding: 10em;
+    border-radius: 2em;
+    background-image: linear-gradient(to left, rgb(215, 215, 255),#ffffff);
+}
+
+.in{
+    width: 0;
+    height: 0;
+    margin: 0%;
+}

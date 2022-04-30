@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    background-color: #ecf5ff;
+    font-size: 62.5%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: rgb(79, 79, 188);
+    font-size: 5em;
+    border: rgb(79, 79, 188) 3px solid;
+    border-radius: 10px;
+    padding: 0.5em .5em;
+    transition-duration: 0.5s;
+}
+
+h1:hover{
+    color: white;
+    background-color: rgb(79, 79, 188);
+}
+
+.diff{
+    text-align: center;
+    width: 400px;
+    height: 1em;
+    background-color: rgb(79, 79, 188);
+    padding: 40px;
+    margin: 20px;
+    font-size: 40px;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+    transition-duration: 0.5s;
+}
+
+.diff:hover{
+    background-color: rgb(5, 159, 220);
+    transform: scale(1.03,1.03);
+    color: white;
+}
+
+#noofQue{
+    padding: 10px;
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+}
+
+#note{
+    font-size: 20px;
+    margin: 5px 0;
+    color: gray;
+}
+
+#start{
+    display: block;
+    text-decoration: none;
+    background-color: rgba(127, 169, 227, 0.621);
+    padding: 10px 20px;
+    border: 1px white solid;
+    border-radius: 2em;
+    transition-duration: 0.5s;
+    font-size: 2em;
+}
+
+#start:hover{
+    background-color: rgb(21, 80, 143);
+    color: white;
+}
+
+#button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}

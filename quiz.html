@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="container">
+        <div id="loader"></div>
+        <div id="quiz" class="hidden">
+        <div style="display: block; width: 100%; margin-bottom: 50px;" id="nav">
+            <p id="progressText"></p>
+            <p id="score">Score 0</p>
+        </div>
+        <h2 id="question">Hi, what are you doing?</h2>
+        <div class="op">
+            <div class="options" id="option-1">
+                <p class="option-id">A</p>
+                <p class="choice-text" data-number="1">Option A</p>
+            </div>
+            <div class="options" id="option-2">
+                <p class="option-id">B</p>
+                <p class="choice-text" data-number="2">Option B</p>
+            </div>
+            <div class="options" id="option-3">
+                <p class="option-id">C</p>
+                <p class="choice-text" data-number="3">Option C</p>
+            </div>
+            <div class="options" id="option-4">
+                <p class="option-id">D</p>
+                <p class="choice-text" data-number="4">Option D</p>
+            </div>
+            <div class="options" id="option-5">
+                <p class="option-id">E</p>
+                <p class="choice-text" data-number="5">Option D</p>
+            </div>
+            <div class="options" id="option-6">
+                <p class="option-id">F</p>
+                <p class="choice-text" data-number="6">Option D</p>
+            </div>
+        </div>
+        <div id="NextBtn">
+            <button id="btn" class="btn">Next Question</button>
+        </div>
+    </div>
+</div>
+    <script type="module" src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="quizend.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1 id="finalScore">Result</h1>
+        <div id="score"></div>
+        <form id="form" action="C:\xampp\htdocs\WTproject\userdetails.php" method="post">
+            <input type="text" name="username" id="username" placeholder="username" />
+            <input type="text" name="question" id="question" class="in">
+            <input type="text" name="score" id="score" class="in">
+            <input type="text" name="time" id="time" class="in">
+            <input type="text" name="percentage" id="percentage" class="in">
+            <button type="submit" class="btn" id="saveScoreBtn" name="submit">Save </button>
+        </form>
+        <a class="btn" href="/quiz.html">Play Again</a>
+        <a class="btn" href="/index.html" onclick="clear();">Go Home</a>
+    </div>
+    <script src="quizend.js"></script>
+  </body>
+</html>

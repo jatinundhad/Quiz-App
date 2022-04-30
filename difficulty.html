@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="difficulty.css">
+    <title>Difficulty</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Difficulty Level</h1>
+        <div class="diff" data-number="1"><a>Easy</a></div>
+        <div class="diff" data-number="2"><a>Medium</a></div>
+        <div class="diff" data-number="3"><a>Hard</a></div>
+    </div>
+    <div class="container">
+        <label for="noofQue"><h1>Number of Questions</h1></label>
+        <input type="number" name="noofQue" id="noofQue">
+        <p id="note">*Maximum 20 Questions</p>
+        <div id="button">
+        <button id="start" onclick="startquiz();">Start</button>
+        </div>
+    </div>
+
+    <script src="difficulty.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+}
+
+#question{
+    font-size: 4em;
+}
+
+.options{
+    width: 100%;
+    background-color: white;
+    height: 5em;
+    display: flex;
+    margin: 1em;
+    transition-duration: 0.4s;
+    border: 1px solid lightgray;
+}
+
+.options:hover{
+    box-shadow: 0px 0px 20px lightgray;
+    transform: scale(1.02,1.2);
+}
+
+.option-id{
+    background-color: rgb(79, 79, 188);
+    width: 3em;
+    height: 100%;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-text{
+    font-size: 2em;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+
+.choice-text:hover{
+    cursor: pointer;
+}
+
+.correct{
+    background-color: rgb(26, 230, 26);
+    color: white;
+}
+
+.incorrect{
+    background-color: rgb(245, 38, 38);
+    color: white;
+}
+
+.btn{
+    font-size: 2em;
+}
+
+#NextBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100em;
+}
+
+#progressText, #score{
+    display: inline-block;
+    font-size: 2em;
+    text-decoration: none;
+    background-color: rgba(127, 169, 227, 0.621);
+    padding: 10px 20px;
+    border: 1px white solid;
+    border-radius: 2em;
+    width: 15em;
+}
+
+#progressText{
+    margin-right: 3em;
+}
+
+#score{
+    margin-left: 3em;
+}
+
+#nav{
+    padding-bottom: 2em;
+    border-bottom: 1px solid rgb(185, 183, 183);
+}  
+
+.hidden {
+    display:none;
+}
+
+#loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #56a5eb;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+    position: relative; 
+    left:400px;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
